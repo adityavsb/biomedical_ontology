@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aditya/ontologies/2016/5/bioinformatics_concepts"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aditya/ontologies/2016/5/bioinformatics_concepts">
+    <Prefix name="" IRI="http://www.semanticweb.org/aditya/ontologies/2016/5/bioinformatics_concepts#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OWLClass_ce547e20_8870_44bb_a676_91bf731ef1ee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a6b190de_70d7_4c56_a841_3b8467af2d8e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_210b0342_3923_4907_b1d0_4c363293a631"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_99f4013a_aa47_496b_83a2_2e4e8f7809dd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f32ca73d_9d36_4cba_9a0e_d4dc628aafe9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_da936b87_6f6f_495b_af80_3f9319015d69"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_398654c2_c6c6_461f_afdf_e442f956d952"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ba388287_81b9_4470_a7e5_58f2a429da67"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9758f822_ccda_45ff_bbf3_bd5f05688259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4ce04d79_d692_484a_a8ad_ea4699e1da0f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_847be778_f98c_4c55_88a7_f79cbd782ee3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2e8e2670_aff9_4177_af90_f62040759023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_43cef1ef_2ee0_4ebd_b0f0_475029cdbd1f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_28009b6e_5a92_4682_9b31_958a288ea577"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5ba8017d_dded_461c_88d3_4a7f6d7f4728"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5ccbbd49_b908_4542_b82d_e515002fc0d9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6c279f06_a9e7_46ed_8e0f_951624afecd2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5593f6e2_e1fb_4d96_b963_c881f543aeb6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ba410223_e213_4319_a013_14941d33a45d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_83ac80ca_7603_4d54_8fcf_2cb1e4c84843"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_bc333194_044b_4d37_9ba0_a938174b4839"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_cdc204c3_8956_4ee4_b7bd_e957424374da"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e9896c1b_7cc0_4f8c_8b78_0cfd7475ad54"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4e72c1a8_1b64_4d3d_9d85_c7286fe0d966"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5933964c_46e3_44e9_a292_232fe0607420"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_61df2789_b452_4e59_b010_169700d3a44b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_cfe8b561_e951_43a4_9900_bdea8e1a6e1c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c85d0215_6750_4fd3_abfa_65cd7946b4fd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b38eea49_f3e0_42aa_b0f3_912a676c1692"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f40314ee_1ad7_432b_ac7c_0148b248bad3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_107846a0_c5a2_4bae_9ad8_85d232e85269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_fb781c32_2132_4836_a1b4_164bc41df61b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b911b6e7_8e3b_4b76_aede_7c4386a25e1c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_db9cd2ad_76d7_4507_b77a_a8ab52027324"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_0b49fad5_fc19_4d72_9966_4fd0fd84ecd0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e8b4c7a6_8753_4ddc_9bf0_a22e95d9db91"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0"/>
+        <Class IRI="#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd"/>
+        <Class IRI="#OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0b49fad5_fc19_4d72_9966_4fd0fd84ecd0"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_107846a0_c5a2_4bae_9ad8_85d232e85269"/>
+        <Class IRI="#OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311"/>
+        <Class IRI="#OWLClass_61df2789_b452_4e59_b010_169700d3a44b"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24"/>
+        <Class IRI="#OWLClass_28009b6e_5a92_4682_9b31_958a288ea577"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_210b0342_3923_4907_b1d0_4c363293a631"/>
+        <Class IRI="#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_28009b6e_5a92_4682_9b31_958a288ea577"/>
+        <Class IRI="#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2e8e2670_aff9_4177_af90_f62040759023"/>
+        <Class IRI="#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_398654c2_c6c6_461f_afdf_e442f956d952"/>
+        <Class IRI="#OWLClass_210b0342_3923_4907_b1d0_4c363293a631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_43cef1ef_2ee0_4ebd_b0f0_475029cdbd1f"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb"/>
+        <Class IRI="#OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4ce04d79_d692_484a_a8ad_ea4699e1da0f"/>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4e72c1a8_1b64_4d3d_9d85_c7286fe0d966"/>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5593f6e2_e1fb_4d96_b963_c881f543aeb6"/>
+        <Class IRI="#OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5933964c_46e3_44e9_a292_232fe0607420"/>
+        <Class IRI="#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5ba8017d_dded_461c_88d3_4a7f6d7f4728"/>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_5ccbbd49_b908_4542_b82d_e515002fc0d9"/>
+        <Class IRI="#OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_61df2789_b452_4e59_b010_169700d3a44b"/>
+        <Class IRI="#OWLClass_ba410223_e213_4319_a013_14941d33a45d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6c279f06_a9e7_46ed_8e0f_951624afecd2"/>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_83ac80ca_7603_4d54_8fcf_2cb1e4c84843"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_847be778_f98c_4c55_88a7_f79cbd782ee3"/>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9758f822_ccda_45ff_bbf3_bd5f05688259"/>
+        <Class IRI="#OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_99f4013a_aa47_496b_83a2_2e4e8f7809dd"/>
+        <Class IRI="#OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f"/>
+        <Class IRI="#OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a6b190de_70d7_4c56_a841_3b8467af2d8e"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786"/>
+        <Class IRI="#OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3"/>
+        <Class IRI="#OWLClass_61df2789_b452_4e59_b010_169700d3a44b"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b38eea49_f3e0_42aa_b0f3_912a676c1692"/>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b911b6e7_8e3b_4b76_aede_7c4386a25e1c"/>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ba388287_81b9_4470_a7e5_58f2a429da67"/>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ba410223_e213_4319_a013_14941d33a45d"/>
+        <Class IRI="#OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_bc333194_044b_4d37_9ba0_a938174b4839"/>
+        <Class IRI="#OWLClass_cfe8b561_e951_43a4_9900_bdea8e1a6e1c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c85d0215_6750_4fd3_abfa_65cd7946b4fd"/>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_cdc204c3_8956_4ee4_b7bd_e957424374da"/>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_ce547e20_8870_44bb_a676_91bf731ef1ee"/>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927"/>
+        <Class IRI="#OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+        <Class IRI="#OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_da936b87_6f6f_495b_af80_3f9319015d69"/>
+        <Class IRI="#OWLClass_210b0342_3923_4907_b1d0_4c363293a631"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_db9cd2ad_76d7_4507_b77a_a8ab52027324"/>
+        <Class IRI="#OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+        <Class IRI="#OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+        <Class IRI="#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e8b4c7a6_8753_4ddc_9bf0_a22e95d9db91"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e9896c1b_7cc0_4f8c_8b78_0cfd7475ad54"/>
+        <Class IRI="#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f32ca73d_9d36_4cba_9a0e_d4dc628aafe9"/>
+        <Class IRI="#OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f40314ee_1ad7_432b_ac7c_0148b248bad3"/>
+        <Class IRI="#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_fb781c32_2132_4836_a1b4_164bc41df61b"/>
+        <Class IRI="#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Identification_Of_Complex_Patterns_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Recognition_Of_Erythrocytes_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_0b49fad5_fc19_4d72_9966_4fd0fd84ecd0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Color_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_107846a0_c5a2_4bae_9ad8_85d232e85269</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Low_Pass_Filter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Typical_Erythrocyte_Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Infection_Life_Stages</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Machine_Learning_Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_210b0342_3923_4907_b1d0_4c363293a631</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Splitting_Of_Clumped_Erythrocytes_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_28009b6e_5a92_4682_9b31_958a288ea577</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classification_Of_Erythrocytes_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Image_Analysis_And_Recognition_Process_Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_2e8e2670_aff9_4177_af90_f62040759023</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pixel_Image_Labelling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_398654c2_c6c6_461f_afdf_e442f956d952</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Splitting_Template_Matching_Strategy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_43cef1ef_2ee0_4ebd_b0f0_475029cdbd1f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gray_Scale_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classification_Of_Erythrocytes_Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4ce04d79_d692_484a_a8ad_ea4699e1da0f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Environment_Illumination_Conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4e72c1a8_1b64_4d3d_9d85_c7286fe0d966</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Texture_Features</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5593f6e2_e1fb_4d96_b963_c881f543aeb6</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Color_Pixel_Classification_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5933964c_46e3_44e9_a292_232fe0607420</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Inclusion_Tree_Representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5ba8017d_dded_461c_88d3_4a7f6d7f4728</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Multiclass_Classifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5ccbbd49_b908_4542_b82d_e515002fc0d9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Trophozoite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_61df2789_b452_4e59_b010_169700d3a44b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Image_Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_6c279f06_a9e7_46ed_8e0f_951624afecd2</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_83ac80ca_7603_4d54_8fcf_2cb1e4c84843</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tamura_Texture_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_847be778_f98c_4c55_88a7_f79cbd782ee3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Support_Vector_Machines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9758f822_ccda_45ff_bbf3_bd5f05688259</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Window_Size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_99f4013a_aa47_496b_83a2_2e4e8f7809dd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local_Adaptive_Filter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Image_Preprocessing_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a6b190de_70d7_4c56_a841_3b8467af2d8e</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sobel_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Machine_Learning_Technique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Random_Variable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b38eea49_f3e0_42aa_b0f3_912a676c1692</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Color</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_b911b6e7_8e3b_4b76_aede_7c4386a25e1c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neighbour_Relationships</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ba388287_81b9_4470_a7e5_58f2a429da67</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Binary_Classifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ba410223_e213_4319_a013_14941d33a45d</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Feature_Extraction_Step</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_bc333194_044b_4d37_9ba0_a938174b4839</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Morphometry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_c85d0215_6750_4fd3_abfa_65cd7946b4fd</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cdc204c3_8956_4ee4_b7bd_e957424374da</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dye_Duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_ce547e20_8870_44bb_a676_91bf731ef1ee</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Film_Inhomogeneities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_cfe8b561_e951_43a4_9900_bdea8e1a6e1c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Microscopic_Studies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Complex_Patterns</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Set_Of_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_da936b87_6f6f_495b_af80_3f9319015d69</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Template_Construction_EM_Algorithm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_db9cd2ad_76d7_4507_b77a_a8ab52027324</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ring_Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Factors_In_Quantification_And_Classification_Of_Erythrocytes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e8b4c7a6_8753_4ddc_9bf0_a22e95d9db91</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saturation_Level_Histogram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e9896c1b_7cc0_4f8c_8b78_0cfd7475ad54</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Multilayer_Perceptron_Neural_Network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f32ca73d_9d36_4cba_9a0e_d4dc628aafe9</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Schizont</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_f40314ee_1ad7_432b_ac7c_0148b248bad3</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Film_Thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_fb781c32_2132_4836_a1b4_164bc41df61b</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Color_Histogram</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

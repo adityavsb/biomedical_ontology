@@ -1,0 +1,254 @@
+format-version: 1.2
+ontology: http://www.semanticweb.org/aditya/ontologies/2016/5/bioinformatics_concepts
+
+[Term]
+id: OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0
+name: Identification_Of_Complex_Patterns_Step
+is_a: OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb ! Classification_Of_Erythrocytes_Process
+disjoint_from: OWLClass_28009b6e_5a92_4682_9b31_958a288ea577 ! Classification_Of_Erythrocytes_Step
+
+[Term]
+id: OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd
+name: Recognition_Of_Erythrocytes_Step
+is_a: OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0 ! Image_Analysis_And_Recognition_Process_Component
+
+[Term]
+id: OWLClass_107846a0_c5a2_4bae_9ad8_85d232e85269
+name: Low_Pass_Filter
+is_a: OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f ! Image_Preprocessing_Step
+
+[Term]
+id: OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311
+name: Typical_Erythrocyte_Size
+is_a: OWLClass_61df2789_b452_4e59_b010_169700d3a44b ! Image_Feature
+
+[Term]
+id: OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de
+name: Infection_Life_Stages
+
+[Term]
+id: OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24
+name: Machine_Learning_Strategy
+is_a: OWLClass_28009b6e_5a92_4682_9b31_958a288ea577 ! Classification_Of_Erythrocytes_Step
+
+[Term]
+id: OWLClass_210b0342_3923_4907_b1d0_4c363293a631
+name: Splitting_Of_Clumped_Erythrocytes_Step
+is_a: OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd ! Recognition_Of_Erythrocytes_Step
+disjoint_from: OWLClass_5933964c_46e3_44e9_a292_232fe0607420 ! Inclusion_Tree_Representation
+
+[Term]
+id: OWLClass_28009b6e_5a92_4682_9b31_958a288ea577
+name: Classification_Of_Erythrocytes_Step
+is_a: OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb ! Classification_Of_Erythrocytes_Process
+disjoint_from: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed ! Factors_In_Quantification_And_Classification_Of_Erythrocytes
+
+[Term]
+id: OWLClass_2c658c1a_da3c_4831_96d3_67874e2dcf5b
+name: Window_Size
+is_a: OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311 ! Typical_Erythrocyte_Size
+
+[Term]
+id: OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0
+name: Image_Analysis_And_Recognition_Process_Component
+
+[Term]
+id: OWLClass_2e8e2670_aff9_4177_af90_f62040759023
+name: Pixel_Image_Labelling
+is_a: OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd ! Recognition_Of_Erythrocytes_Step
+disjoint_from: OWLClass_5933964c_46e3_44e9_a292_232fe0607420 ! Inclusion_Tree_Representation
+
+[Term]
+id: OWLClass_398654c2_c6c6_461f_afdf_e442f956d952
+name: Splitting_Template_Matching_Strategy.
+is_a: OWLClass_210b0342_3923_4907_b1d0_4c363293a631 ! Splitting_Of_Clumped_Erythrocytes_Step
+
+[Term]
+id: OWLClass_43cef1ef_2ee0_4ebd_b0f0_475029cdbd1f
+name: Gray_Scale_Histogram
+is_a: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c ! Set_Of_Histogram
+
+[Term]
+id: OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb
+name: Classification_Of_Erythrocytes_Process
+is_a: OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0 ! Image_Analysis_And_Recognition_Process_Component
+
+[Term]
+id: OWLClass_4ce04d79_d692_484a_a8ad_ea4699e1da0f
+name: Environment_Illumination_Conditions
+is_a: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed ! Factors_In_Quantification_And_Classification_Of_Erythrocytes
+
+[Term]
+id: OWLClass_4e72c1a8_1b64_4d3d_9d85_c7286fe0d966
+name: Texture_Features
+is_a: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927 ! Complex_Patterns
+
+[Term]
+id: OWLClass_5593f6e2_e1fb_4d96_b963_c881f543aeb6
+name: Color_Pixel_Classification_Step
+is_a: OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24 ! Machine_Learning_Strategy
+
+[Term]
+id: OWLClass_5933964c_46e3_44e9_a292_232fe0607420
+name: Inclusion_Tree_Representation
+is_a: OWLClass_03ba5c08_9ff6_4736_8683_adb5d0740bcd ! Recognition_Of_Erythrocytes_Step
+
+[Term]
+id: OWLClass_5ba8017d_dded_461c_88d3_4a7f6d7f4728
+name: Multiclass_Classifier
+is_a: OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf ! Classifier
+
+[Term]
+id: OWLClass_5ccbbd49_b908_4542_b82d_e515002fc0d9
+name: Trophozoite
+is_a: OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de ! Infection_Life_Stages
+
+[Term]
+id: OWLClass_61df2789_b452_4e59_b010_169700d3a44b
+name: Image_Feature
+is_a: OWLClass_ba410223_e213_4319_a013_14941d33a45d ! Feature_Extraction_Step
+
+[Term]
+id: OWLClass_6c279f06_a9e7_46ed_8e0f_951624afecd2
+name: Shape
+is_a: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927 ! Complex_Patterns
+
+[Term]
+id: OWLClass_83ac80ca_7603_4d54_8fcf_2cb1e4c84843
+name: Tamura_Texture_Histogram
+is_a: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c ! Set_Of_Histogram
+
+[Term]
+id: OWLClass_847be778_f98c_4c55_88a7_f79cbd782ee3
+name: Support_Vector_Machines
+is_a: OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf ! Classifier
+
+[Term]
+id: OWLClass_9758f822_ccda_45ff_bbf3_bd5f05688259
+name: Window_Size
+is_a: OWLClass_11cbcbbf_d93b_4c8b_82e8_d20f917b3311 ! Typical_Erythrocyte_Size
+
+[Term]
+id: OWLClass_99f4013a_aa47_496b_83a2_2e4e8f7809dd
+name: Local_Adaptive_Filter
+is_a: OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f ! Image_Preprocessing_Step
+
+[Term]
+id: OWLClass_9f9a5ebc_4315_4155_8c6d_bef912ac4f1f
+name: Image_Preprocessing_Step
+is_a: OWLClass_2dca4bc1_1fbc_4725_b90b_a55a72b79da0 ! Image_Analysis_And_Recognition_Process_Component
+
+[Term]
+id: OWLClass_a6b190de_70d7_4c56_a841_3b8467af2d8e
+name: Sobel_Histogram
+is_a: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c ! Set_Of_Histogram
+
+[Term]
+id: OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786
+name: Machine_Learning_Technique
+is_a: OWLClass_179f4251_0818_4bf4_9feb_e3006bdf0e24 ! Machine_Learning_Strategy
+
+[Term]
+id: OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3
+name: Random_Variable
+is_a: OWLClass_61df2789_b452_4e59_b010_169700d3a44b ! Image_Feature
+
+[Term]
+id: OWLClass_b38eea49_f3e0_42aa_b0f3_912a676c1692
+name: Color
+is_a: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927 ! Complex_Patterns
+
+[Term]
+id: OWLClass_b911b6e7_8e3b_4b76_aede_7c4386a25e1c
+name: Neighbour_Relationships
+is_a: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927 ! Complex_Patterns
+
+[Term]
+id: OWLClass_ba388287_81b9_4470_a7e5_58f2a429da67
+name: Binary_Classifier
+is_a: OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf ! Classifier
+
+[Term]
+id: OWLClass_ba410223_e213_4319_a013_14941d33a45d
+name: Feature_Extraction_Step
+is_a: OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0 ! Identification_Of_Complex_Patterns_Step
+
+[Term]
+id: OWLClass_bc333194_044b_4d37_9ba0_a938174b4839
+name: Morphometry
+is_a: OWLClass_cfe8b561_e951_43a4_9900_bdea8e1a6e1c ! Microscopic_Studies
+
+[Term]
+id: OWLClass_c85d0215_6750_4fd3_abfa_65cd7946b4fd
+name: Intensity
+is_a: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927 ! Complex_Patterns
+
+[Term]
+id: OWLClass_cdc204c3_8956_4ee4_b7bd_e957424374da
+name: Dye_Duration
+is_a: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed ! Factors_In_Quantification_And_Classification_Of_Erythrocytes
+
+[Term]
+id: OWLClass_ce547e20_8870_44bb_a676_91bf731ef1ee
+name: Film_Inhomogeneities
+is_a: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed ! Factors_In_Quantification_And_Classification_Of_Erythrocytes
+
+[Term]
+id: OWLClass_cfe8b561_e951_43a4_9900_bdea8e1a6e1c
+name: Microscopic_Studies
+
+[Term]
+id: OWLClass_d21d2b67_75fc_4ca4_9dae_d14584ccd927
+name: Complex_Patterns
+is_a: OWLClass_016ba838_d7ef_47a7_bf36_953a5faedba0 ! Identification_Of_Complex_Patterns_Step
+
+[Term]
+id: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c
+name: Set_Of_Histogram
+is_a: OWLClass_aefdfa4d_0378_4f0e_bbff_f642f29bacc3 ! Random_Variable
+
+[Term]
+id: OWLClass_da936b87_6f6f_495b_af80_3f9319015d69
+name: Template_Construction_EM_Algorithm.
+is_a: OWLClass_210b0342_3923_4907_b1d0_4c363293a631 ! Splitting_Of_Clumped_Erythrocytes_Step
+
+[Term]
+id: OWLClass_db9cd2ad_76d7_4507_b77a_a8ab52027324
+name: Ring_Stage
+is_a: OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de ! Infection_Life_Stages
+
+[Term]
+id: OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf
+name: Classifier
+is_a: OWLClass_aca1ce0d_5edd_4acc_a4f8_110d583ce786 ! Machine_Learning_Technique
+
+[Term]
+id: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed
+name: Factors_In_Quantification_And_Classification_Of_Erythrocytes
+is_a: OWLClass_485e266a_b401_42b6_9660_5344e90a1fbb ! Classification_Of_Erythrocytes_Process
+
+[Term]
+id: OWLClass_e8b4c7a6_8753_4ddc_9bf0_a22e95d9db91
+name: Saturation_Level_Histogram
+is_a: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c ! Set_Of_Histogram
+
+[Term]
+id: OWLClass_e9896c1b_7cc0_4f8c_8b78_0cfd7475ad54
+name: Multilayer_Perceptron_Neural_Network
+is_a: OWLClass_dddbd909_e3bf_45be_8f9a_6e27d92169cf ! Classifier
+
+[Term]
+id: OWLClass_f32ca73d_9d36_4cba_9a0e_d4dc628aafe9
+name: Schizont
+is_a: OWLClass_15b18d8f_d9f6_4bd9_910a_7e0af4d999de ! Infection_Life_Stages
+
+[Term]
+id: OWLClass_f40314ee_1ad7_432b_ac7c_0148b248bad3
+name: Film_Thickness
+is_a: OWLClass_e2bd40cf_5c48_4dfe_8a4f_02f336e014ed ! Factors_In_Quantification_And_Classification_Of_Erythrocytes
+
+[Term]
+id: OWLClass_fb781c32_2132_4836_a1b4_164bc41df61b
+name: Color_Histogram
+is_a: OWLClass_d568df4b_6602_4a24_8097_7ba77370f10c ! Set_Of_Histogram
+
